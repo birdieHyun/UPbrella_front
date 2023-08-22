@@ -9,6 +9,7 @@ env:
   S3_BUCKET_NAME: upbrella-dev
   CODE_DEPLOY_APPLICATION_NAME: upbrella-dev-deploy
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: upbrella-dev-deploy-group
+  working-directory: ./
 
 permissions:
   contents: read
